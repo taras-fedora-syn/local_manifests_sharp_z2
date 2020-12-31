@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
 
-  <remote  name="gitlab" 
-           fetch="https://gitlab.com/"
-           revision="cm-14.1" />
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="master" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-15.1"/>
 
-  <project name="taras-fedora-syn/android_device_sharp_z2" path="device/sharp/sharp_z2" remote="gitlab" />
-  <project name="taras-fedora-syn/android_vendor_sharp_z2" path="vendor/sharp/sharp_z2" remote="gitlab" />
+    <!--Device Trees-->
+    <project path="device/sharp/sharp_z2" name="taras-fedora-syn/android_device_sharp_z2" remote="device" />
 
+    <!-- Vendor folders -->
+    <project path="vendor/sharp/sharp_z2" name="taras-fedora-syn/android_vendor_sharp_z2" remote="vendor" />
+	<project path="vendor/mediatek" name="Moyster/o_vendor_mediatek" remote="github" revision="los-15.0" />
+	
 </manifest>
