@@ -15,8 +15,8 @@
             revision="o-8.1.0"/>
 
     <!--Device Trees-->
-    <project path="device/sharp/sharp_z2" name="taras-fedora-syn/android_device_sharp_z2" remote="device" />
-	
+    <project path="device/sharp/sharp_z2" name="taras-fedora-syn/android_device_sharp_z2" remote="device" />	
+       	
     <!--Kernel-->
     <project path="kernel/sharp/sharp_z2" name="taras-fedora-syn/android_kernel_sharp_z2" remote="kernel" />
 
