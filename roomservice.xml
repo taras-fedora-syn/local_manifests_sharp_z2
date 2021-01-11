@@ -1,10 +1,7 @@
-version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="git://github.com/" name="gh" /> 
-	<project name="Moyster/o_vendor_mediatek" path="vendor/mediatek" remote="gh" revision="los-15.0" />
-	<project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="los-17.1" />
-	<project name="LineageOS/android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" remote="gh" revision="los-17.1" />
-	<project name="taras-fedora-syn/android_device_sharp_z2" path="device/sharp/sharp_z2" remote="gh" />
-	<project name="taras-fedora-syn/android_vendor_sharp_z2" path="vendor/sharp/sharp_z2" remote="gh" />
-	<project name="taras-fedora-syn/android_kernel_sharp_z2" path="kernel/sharp/sharp_z2" remote="gh" />
+
+  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-17.1"/>
+  <project name="LineageOS/android_device_mediatek_sepolicy" path="device/mediatek/sepolicy.git" remote="github" revision="lineage-17.1"/>
+  
 </manifest>
