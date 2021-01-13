@@ -1,0 +1,6 @@
+Create a new repository +
+in folder
+git init
+git add .
+git commit -m "First commit"
+git push origin master
