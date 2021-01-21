@@ -5,6 +5,8 @@ sudo alternatives --config java
 java -version
 
 
+sudo dnf group install "C Development Tools and Libraries"
+
 LANG=C make
 
 Пакунок zip-3.0-27.fc33.x86_64 вже встановлено.
