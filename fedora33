@@ -1,4 +1,4 @@
-sudo dnf -y install gcc-c++ flex bison gperf zlib-devel ncurses-devel libX11-devel readline-devel perl-Digest-MD5-File python-markdown mesa-libGL-devel schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat
+sudo dnf -y install gcc-c++ flex bison gperf zlib-devel ncurses-devel libX11-devel readline-devel perl-Digest-MD5-File python-markdown mesa-libGL-devel schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache
 
 sudo alternatives --config java
 вибрати версію 1.8.0
