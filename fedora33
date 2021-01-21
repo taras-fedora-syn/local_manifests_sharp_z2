@@ -5,6 +5,8 @@ sudo alternatives --config java
 java -version
 
 
+LANG=C make
+
 Пакунок zip-3.0-27.fc33.x86_64 вже встановлено.
 Пакунок curl-7.71.1-7.fc33.x86_64 вже встановлено.
 Пакунок gcc-10.2.1-3.fc33.x86_64 вже встановлено.
