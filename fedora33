@@ -43,6 +43,7 @@ export CCACHE_MAX_SIZE=50G
 ccache -M $CCACHE_MAX_SIZE
 export _JAVA_OPTIONS="-Xmx4g"
 
+export LC_ALL=C
 
 REMOVE /home/username
 sudo rm -r /home/tamaraiuk
