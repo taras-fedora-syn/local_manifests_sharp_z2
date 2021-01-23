@@ -18,6 +18,10 @@ $ python --version
 Python 2.7.18
 
 https://unixhow.com/3557/kak-izmenit-versiyu-python-po-umolchaniyu-v-debian
+https://forum.xda-developers.com/t/guide-how-to-build-android-with-fedora-29-and-30-complete-for-noobs.3885363/
+https://forum.xda-developers.com/t/guide-linux-fedora-25-setting-up-an-android-compile-environment.3530696/
+https://github.com/tripLr/fedora_build_android/blob/fedora32/fedora32-packages.sh
+
 
 sudo dnf group install "C Development Tools and Libraries"
 
