@@ -4,6 +4,20 @@ sudo alternatives --config java
 вибрати версію 1.8.0
 java -version
 
+$ python --version
+Python 3.9.1
+Чтобы установить альтернативы Python, сначала перечислите все доступные опции
+
+$ ls /usr/bin/python*
+/usr/bin/python  /usr/bin/python2  /usr/bin/python2.7  /usr/bin/python3  /usr/bin/python3.9.1  /usr/bin/python3.9.1m  /usr/bin/python3m
+
+Затем обновите список альтернатив Python для python2
+$ update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+
+$ python --version
+Python 2.7.18
+
+https://unixhow.com/3557/kak-izmenit-versiyu-python-po-umolchaniyu-v-debian
 
 sudo dnf group install "C Development Tools and Libraries"
 
