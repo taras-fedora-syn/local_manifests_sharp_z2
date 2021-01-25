@@ -64,5 +64,11 @@ export _JAVA_OPTIONS="-Xmx4g"
 
 export LC_ALL=C
 
+
+ apt-file search
+   * repoquery -f
+   * yum provides
+   * rpm -qf 
+
 REMOVE /home/username
 sudo rm -r /home/tamaraiuk
