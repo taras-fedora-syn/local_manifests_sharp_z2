@@ -2,7 +2,7 @@ sudo dnf -y upgrade
 
 sudo dnf -y autoremove
 
-udo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} ncurses-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} libxslt.i686 readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown mesa-libGL-devel.{x86_64,i686} git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc ImageMagick lzop mc
+sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} ncurses-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} libxslt.i686 readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown mesa-libGL-devel.{x86_64,i686} git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc ImageMagick lzop mc
 
 sudo dnf group install "C Development Tools and Libraries"
 
