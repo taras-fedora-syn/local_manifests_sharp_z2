@@ -2,6 +2,8 @@ sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} 
 
 dnf install perl-XML-Generator
 
+dnf install compat-flex
+
 sudo alternatives --config java
 вибрати версію 1.8.0
 java -version
