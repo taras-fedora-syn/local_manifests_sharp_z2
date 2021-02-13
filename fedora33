@@ -2,7 +2,14 @@ sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} 
 
 sudo dnf install perl-XML-Generator
 
-sudo dnf install bcc-tools
+sudo dnf group install "C Development Tools and Libraries"
+
+sudo dnf -y install gcc-c++.* gcc-c++-arm* gcc-c++-x*
+
+sudo dnf -y install gcc-c++ gcc-c++-arm-linux-gnu gcc-c++-x86_64-linux-gnu
+
+sudo dnf -y install readline.* readline-devel.* readline-static.*
+
 
 sudo alternatives --config java
 вибрати версію 1.8.0
