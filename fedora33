@@ -20,8 +20,19 @@ sudo dnf -y install libxml2 libxml2-devel.* libxml++.* libxml++*
 
 sudo dnf -y install libxslt libxslt-devel
 
-sudo dnf -y install bc bison ccache curl flex git gnupg gperf lzop pngcrush rsync schedtool squashfs-tools zip
+sudo dnf install -y mesa-libG*
 
+sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
+
+sudo dnf install -y python3 python3-devel
+
+sudo dnf -y install ncurses.* ncurses-devel.* ncurses-* 
+
+sudo dnf -y install ImageMagick.* ImageMagick-*
+
+sudo dnf -y install  xz*
+
+sudo dnf -y install  lzma*
 
 sudo alternatives --config java
 вибрати версію 1.8.0
