@@ -1,4 +1,4 @@
-sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} ncurses-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} libxslt.i686 readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown mesa-libGL-devel.{x86_64,i686} git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc ImageMagick mc
+sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} ncurses-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} libxslt.i686 readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown mesa-libGL-devel.{x86_64,i686} git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc ImageMagick lzop mc
 
 sudo dnf install perl-XML-Generator
 
@@ -9,6 +9,18 @@ sudo dnf -y install gcc-c++.* gcc-c++-arm* gcc-c++-x*
 sudo dnf -y install gcc-c++ gcc-c++-arm-linux-gnu gcc-c++-x86_64-linux-gnu
 
 sudo dnf -y install readline.* readline-devel.* readline-static.*
+
+sudo dnf -y install  SDL* SDL-* SDL2*
+
+sudo dnf -y install openssl* openssl-*
+
+sudo dnf -y install gtk3 gtk3-devel*
+
+sudo dnf -y install libxml2 libxml2-devel.* libxml++.* libxml++*
+
+sudo dnf -y install libxslt libxslt-devel
+
+sudo dnf -y install bc bison ccache curl flex git gnupg gperf lzop pngcrush rsync schedtool squashfs-tools zip
 
 
 sudo alternatives --config java
