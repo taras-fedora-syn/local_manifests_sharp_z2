@@ -61,8 +61,13 @@ sudo dnf -y install cockpit-* fail2ban
 sudo dnf -y install gperf pngcrush schedtool
 
 sudo ln -s /usr/bin/python2 /usr/local/bin/python
+
 sudo dnf install -y vim
 
+echo 'install colorful bash-prompt in shell'
 
+echo 'open fstab and add lazytime drives'
+
+cat /etc/fstab
 
 
