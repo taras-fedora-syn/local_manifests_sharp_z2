@@ -56,6 +56,13 @@ sudo dnf install -y mesa-libG*
 
 sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
 
+sudo dnf -y install cockpit-* fail2ban
+
+sudo dnf -y install gperf pngcrush schedtool
+
+sudo ln -s /usr/bin/python2 /usr/local/bin/python
+sudo dnf install -y vim
+
 
 
 
