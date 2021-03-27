@@ -38,8 +38,6 @@ sudo dnf -y install bc bison ccache curl flex git gnupg gperf lzop pngcrush rsyn
 
 sudo dnf install -y glibc-devel.x86_64 glibc-devel.i686
 
-sudo dnf install -y python3 python3-devel
-
 sudo dnf install -y xorg-x11-proto-devel
 
 sudo dnf install -y libX11-devel.*
