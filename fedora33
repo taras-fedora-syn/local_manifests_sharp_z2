@@ -1,4 +1,4 @@
-sudo dnf -y install zip curl flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc lzop mc
+sudo dnf -y install zip curl flex bison gperf glibc-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc lzop mc
 
 sudo dnf group install "C Development Tools and Libraries"
 
@@ -25,6 +25,10 @@ sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel ke
 sudo dnf -y install ncurses.* ncurses-devel.* ncurses-* 
 
 sudo dnf -y install ImageMagick.* ImageMagick-*
+
+sudo dnf -y install zlib.* zlib-devel.* zlibrary.* zlibrary-devel.*
+
+sudo dnf -y install  zlibrary.*
 
 sudo dnf -y install  xz*
 
