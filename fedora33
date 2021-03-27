@@ -65,7 +65,7 @@ CCACHE
 
 export USE_CCACHE=1
 export CCACHE_DIR=~/.ccache
-export CCACHE_MAX_SIZE=35G
+export CCACHE_MAX_SIZE=25G
 ccache -M $CCACHE_MAX_SIZE
 export _JAVA_OPTIONS="-Xmx1g"
 
