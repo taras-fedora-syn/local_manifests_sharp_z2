@@ -2,15 +2,11 @@ sudo dnf -y groupinstall "Development Tools" "Development Libraries"
 
 sudo dnf -y install gcc-c++.* gcc-c++-arm* gcc-c++-x*
 
-sudo dnf -y install gcc-c++ gcc-c++-arm-linux-gnu gcc-c++-x86_64-linux-gnu
+? sudo dnf -y install gcc-c++ gcc-c++-arm-linux-gnu gcc-c++-x86_64-linux-gnu
 
 sudo dnf -y install readline.* readline-devel.* readline-static.*
 
 sudo dnf -y install zlib.* zlib-devel.* zlibrary.* zlibrary-devel.*
-
-sudo dnf -y install  zlibrary.*
-
-sudo dnf -y install  zlibrary-devel.*
 
 sudo dnf -y install  lzma*
 
@@ -22,7 +18,7 @@ sudo dnf -y install ImageMagick.* ImageMagick-*
 
 sudo dnf -y install  SDL* SDL-* SDL2*
 
-sudo dnf -y install openssl* openssl-*
+? sudo dnf -y install openssl* openssl-*
 
 sudo dnf -y install gtk3 gtk3-devel*
 
@@ -38,15 +34,8 @@ sudo dnf -y install bc bison ccache curl flex git gnupg gperf lzop pngcrush rsyn
 
 sudo dnf install -y glibc-devel.x86_64 glibc-devel.i686
 
-sudo dnf install -y xorg-x11-proto-devel
-
 sudo dnf install -y libX11-devel.*
-
-sudo dnf install -y ccache
 
 sudo dnf install -y mesa-libG*
 
 sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
-
-sudo dnf -y install gperf pngcrush schedtool
-
