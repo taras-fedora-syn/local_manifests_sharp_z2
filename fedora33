@@ -1,4 +1,8 @@
-sudo dnf -y install zip curl flex bison gperf glibc-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc lzop mc
+sudo dnf -y upgrade
+
+sudo dnf -y autoremove
+
+sudo dnf -y install zip curl gcc-c++ flex bison gperf glibc-devel.{x86_64,i686} zlib-devel.{x86_64,i686} ncurses-devel.{x86_64,i686} libstdc++.{x86_64,i686} libX11-devel.{x86_64,i686} libXrender.{x86_64,i686} libXrandr.{x86_64,i686} libxslt.i686 readline-devel.{x86_64,i686} perl-Digest-MD5-File python-markdown mesa-libGL-devel.{x86_64,i686} git schedtool pngcrush ncurses-compat-libs java-1.8.0-openjdk-devel xz-lzma-compat ccache python2 python2-six multilib-rpm-config bc ImageMagick lzop mc
 
 sudo dnf group install "C Development Tools and Libraries"
 
@@ -22,17 +26,17 @@ sudo dnf install -y mesa-libG*
 
 sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
 
+sudo dnf install -y python3 python3-devel
+
 sudo dnf -y install ncurses.* ncurses-devel.* ncurses-* 
 
 sudo dnf -y install ImageMagick.* ImageMagick-*
 
-sudo dnf -y install zlib.* zlib-devel.* zlibrary.* zlibrary-devel.*
-
-sudo dnf -y install  zlibrary.*
-
 sudo dnf -y install  xz*
 
 sudo dnf -y install  lzma*
+
+ ????  sudo dnf install python-requests-pkcs12
 
 sudo alternatives --config java
 вибрати версію 1.8.0
@@ -61,7 +65,7 @@ CCACHE
 
 export USE_CCACHE=1
 export CCACHE_DIR=~/.ccache
-export CCACHE_MAX_SIZE=25G
+export CCACHE_MAX_SIZE=50G
 ccache -M $CCACHE_MAX_SIZE
 export _JAVA_OPTIONS="-Xmx4g"
 
