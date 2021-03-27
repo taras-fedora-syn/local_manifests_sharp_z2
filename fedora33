@@ -36,8 +36,6 @@ sudo dnf -y install  xz*
 
 sudo dnf -y install  lzma*
 
- ????  sudo dnf install python-requests-pkcs12
-
 sudo alternatives --config java
 вибрати версію 1.8.0
 java -version
