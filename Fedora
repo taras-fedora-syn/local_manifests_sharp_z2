@@ -38,18 +38,20 @@ sudo dnf install -y libX11-devel.*
 
 sudo dnf install -y mesa-libG*
 
+sudo dnf install mesa-libGL-devel.i686
+
 sudo dnf install -y binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms qt5-qtx11extras libxkbcommon
 
 sudo dnf install python27
 
-? sudo dnf install mc
+sudo dnf install mc
 
-? sudo dnf install multilib-rpm-config
+sudo dnf install multilib-rpm-config
 
-? sudo dnf install perl-Digest-MD5-File
+sudo dnf install perl-Digest-MD5-File
 
-? sudo dnf install libxslt.i686
+sudo dnf install libxslt.i686
 
-? sudo dnf install python-markdown
+sudo dnf install python-markdown
 
 
