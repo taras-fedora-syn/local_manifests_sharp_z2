@@ -1,0 +1,3 @@
+# mkdir /mnt/boot
+# mount /dev/sda7 /mnt/boot
+# grub2-install --boot-directory=/mnt/boot /dev/sda
