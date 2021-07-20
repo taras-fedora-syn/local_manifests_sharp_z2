@@ -1,3 +1,20 @@
+https://2net.co.uk/blog/jack-server.html
+
+Once I understood the problem, it was just a question of changing the default heap size when jack-server is launched. To fix it, you need to edit
+~/.jack-settings, and add this line
+
+JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4096m"
+
+Then, restart jack-server – otherwise if it is running in the background it will continue to use the old Xmx value:
+
+$ prebuilts/sdk/tools/jack-admin kill-server
+$ prebuilts/sdk/tools/jack-admin start-server
+Launching Jack server java -XX:MaxJavaStackTraceDepth=-1 -Djava.io.tmpdir=/tmp -Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4096m
+-cp /home/chris/.jack-server/launcher.jar com.android.jack.launcher.ServerLauncher
+
+
+
+
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"  
 ./prebuilts/sdk/tools/jack-admin kill-server  
 ./prebuilts/sdk/tools/jack-admin start-server
